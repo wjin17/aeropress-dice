@@ -4,10 +4,17 @@
   "private": true,
   "homepage": "http://thewinniewu.github.io/aeropress-dice",
   "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4",
-    "react-transition-group": "^1.2.1"
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "nanoid": "^3.1.20",
+    "react": "^17.0.1",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^4.0.1",
+    "react-transition-group": "^4.4.1",
+    "seedrandom": "^3.0.5",
+    "typescript": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,6 +25,19 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "@types/react-transition-group": "^4.4.0",
     "gh-pages": "^1.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

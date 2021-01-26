@@ -1,5 +1,5 @@
-import React from 'react';
-import { CSSTransitionGroup } from 'react-transition-group' // ES6
+/* import React from 'react';
+import { CSSTransition } from 'react-transition-group' // ES6
 
 const COFFEE_WATER_RATIOS = [
   { coffee: 23, water: 200 },
@@ -175,12 +175,12 @@ class Recipe extends React.Component {
         </h1>
         <div className="card">
           <div className="card-block">
-            <CSSTransitionGroup
-            transitionName="example"
-            transitionEnterTimeout={300}
-            transitionLeaveTimeout={300}>
+            <CSSTransition
+            className="example"
+            Timeout={300}
+            >
               { this.renderRecipe() }
-            </CSSTransitionGroup>
+            </CSSTransition>
           </div>
         </div>
       </div>
@@ -189,3 +189,4 @@ class Recipe extends React.Component {
 }
 
 export default Recipe;
+ */
