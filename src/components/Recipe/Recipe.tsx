@@ -22,6 +22,9 @@ const Recipe = () => {
     }
   }, [seed]);
 
+  const numStringArr = rngFloat.toString().split("").slice(2);
+  const numIntArr = numStringArr.map((numStr) => parseInt(numStr));
+
   return (
     <div className="App-recipe">
       <GeneratorButtons
@@ -32,7 +35,7 @@ const Recipe = () => {
       <div className="card">
         <div className="card-block">
           <CSSTransition in={renderRecipe} classNames="example" timeout={300}>
-            <div>{renderRecipe && <StepList rngFloat={rngFloat} />}</div>
+            <div>{renderRecipe && <StepList numIntArr={numIntArr} />}</div>
           </CSSTransition>
         </div>
       </div>

@@ -128,18 +128,13 @@ ol li {
   transition: opacity 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
-  .card-block {
-    width: 80%;
-  }
-}
-
 .form__group {
   position: relative;
   padding: 15px 0 0;
   /* margin-top: 10px; */
   margin: auto;
   width: 50%;
+  max-width: 450px;
 }
 
 .form__field {
@@ -193,4 +188,48 @@ ol li {
 
 .error {
   color: #f44336;
+}
+
+.timer-container {
+  flex-flow: row;
+}
+
+.timer-button {
+  margin: 1rem auto;
+}
+
+.btn-timer-start {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-timer-stop {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-timer-start:hover {
+  background-color: #357a38;
+}
+
+.btn-timer-stop:hover {
+  background-color: #aa2e25;
+}
+
+.reset-icon {
+  display: inline-block;
+  height: 17px;
+  filter: invert(1);
+}
+
+@media screen and (min-width: 769px) {
+  .timer-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-block {
+    width: 80%;
+  }
 }
