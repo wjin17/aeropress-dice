@@ -225,6 +225,7 @@ ol li {
 
 .share-container {
   text-align: center;
+  margin: auto;
 }
 
 .share-button-container {
@@ -234,6 +235,12 @@ ol li {
 
 .share-button {
   margin: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .share-container {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {

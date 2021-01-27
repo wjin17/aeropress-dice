@@ -18,17 +18,17 @@ const ShareRecipe = () => {
       <div className="share-button-container">
         <div className="share-button">
           <EmailShareButton url={shareLink} subject={quote}>
-            <EmailIcon round={true} />
+            <EmailIcon round={true} size={48} />
           </EmailShareButton>
         </div>
         <div className="share-button">
           <FacebookShareButton url={shareLink} quote={quote}>
-            <FacebookIcon round={true} />
+            <FacebookIcon round={true} size={48} />
           </FacebookShareButton>
         </div>
         <div className="share-button">
           <RedditShareButton url={shareLink} title={quote}>
-            <RedditIcon round={true} />
+            <RedditIcon round={true} size={48} />
           </RedditShareButton>
         </div>
         <div className="share-button">
@@ -37,7 +37,7 @@ const ShareRecipe = () => {
             title={quote}
             hashtags={["aeropress", "aeropress_dice"]}
           >
-            <TwitterIcon round={true} />
+            <TwitterIcon round={true} size={48} />
           </TwitterShareButton>
         </div>
       </div>
