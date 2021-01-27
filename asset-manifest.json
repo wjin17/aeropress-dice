@@ -1,7 +1,21 @@
 {
-  "main.css": "static/css/main.a192ebf4.css",
-  "main.css.map": "static/css/main.a192ebf4.css.map",
-  "main.js": "static/js/main.f6efb298.js",
-  "main.js.map": "static/js/main.f6efb298.js.map",
-  "static/media/aeropress.svg": "static/media/aeropress.b301dae4.svg"
+  "files": {
+    "main.css": "/aeropress-dice/static/css/main.40158c28.chunk.css",
+    "main.js": "/aeropress-dice/static/js/main.961bf69b.chunk.js",
+    "main.js.map": "/aeropress-dice/static/js/main.961bf69b.chunk.js.map",
+    "runtime-main.js": "/aeropress-dice/static/js/runtime-main.ab0bf03a.js",
+    "runtime-main.js.map": "/aeropress-dice/static/js/runtime-main.ab0bf03a.js.map",
+    "static/js/2.21d58e61.chunk.js": "/aeropress-dice/static/js/2.21d58e61.chunk.js",
+    "static/js/2.21d58e61.chunk.js.map": "/aeropress-dice/static/js/2.21d58e61.chunk.js.map",
+    "index.html": "/aeropress-dice/index.html",
+    "static/css/main.40158c28.chunk.css.map": "/aeropress-dice/static/css/main.40158c28.chunk.css.map",
+    "static/js/2.21d58e61.chunk.js.LICENSE.txt": "/aeropress-dice/static/js/2.21d58e61.chunk.js.LICENSE.txt",
+    "static/media/aeropress.330402c8.svg": "/aeropress-dice/static/media/aeropress.330402c8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0bf03a.js",
+    "static/js/2.21d58e61.chunk.js",
+    "static/css/main.40158c28.chunk.css",
+    "static/js/main.961bf69b.chunk.js"
+  ]
 }
