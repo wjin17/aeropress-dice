@@ -7,7 +7,10 @@ import AddWater from "./AddWater";
 import Stir from "./Stir";
 import Brew from "./Brew";
 import EndInvert from "./EndInvert";
+
 import RecipeTimer from "../Timer/RecipeTimer";
+
+import ShareRecipe from "../ShareRecipe/ShareRecipe";
 
 type StepListInput = {
   numIntArr: number[];
@@ -39,6 +42,7 @@ const StepList = ({ numIntArr }: StepListInput) => {
         bloomSecondsRng={numIntArr[5]}
         grindBrewTimeRng={numIntArr[2]}
       />
+      <ShareRecipe />
     </>
   );
 };

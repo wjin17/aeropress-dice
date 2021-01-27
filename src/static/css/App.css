@@ -191,7 +191,8 @@ ol li {
 }
 
 .timer-container {
-  flex-flow: row;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .timer-button {
@@ -222,10 +223,17 @@ ol li {
   filter: invert(1);
 }
 
-@media screen and (min-width: 769px) {
-  .timer-container {
-    display: flex;
-  }
+.share-container {
+  text-align: center;
+}
+
+.share-button-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.share-button {
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
