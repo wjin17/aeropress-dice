@@ -9,6 +9,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "nanoid": "^3.1.20",
+    "nanoid-dictionary": "^4.2.0",
     "react": "^17.0.1",
     "react-dom": "^16.14.0",
     "react-scripts": "^4.0.1",
@@ -25,7 +26,9 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "@types/nanoid-dictionary": "^4.1.0",
     "@types/react-transition-group": "^4.4.0",
+    "@types/seedrandom": "^2.4.28",
     "gh-pages": "^1.1.0"
   },
   "browserslist": {

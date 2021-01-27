@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 16px;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #999;
 }
 
-a:active, a:hover {
-  color: #11A0C4;
+a:active,
+a:hover {
+  color: #11a0c4;
 }
 
 .App {
@@ -24,11 +26,11 @@ a:active, a:hover {
 .App-logo {
   animation: App-logo-bounce infinite 1s linear;
   height: 80px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .App-header {
-  background-color: #FFDB3D;
+  background-color: #ffdb3d;
   padding: 20px;
   color: #222;
 }
@@ -42,9 +44,15 @@ a:active, a:hover {
 }
 
 @keyframes App-logo-bounce {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(25px) scaleY(0.9); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(25px) scaleY(0.9);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .App-recipe {
@@ -68,12 +76,12 @@ a:active, a:hover {
 }
 
 .btn-primary {
-  background-color: #11A0C4;
+  background-color: #11a0c4;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #357AA5;
+  background-color: #357aa5;
 }
 
 .card {
@@ -100,7 +108,6 @@ ol li {
   text-align: right;
   font-size: 12px;
   padding: 5px 20px;
-
 }
 
 .example-enter {
@@ -119,4 +126,71 @@ ol li {
 .example-leave.example-leave-active {
   opacity: 0.01;
   transition: opacity 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .card-block {
+    width: 80%;
+  }
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  /* margin-top: 10px; */
+  margin: auto;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+.error {
+  color: #f44336;
 }
