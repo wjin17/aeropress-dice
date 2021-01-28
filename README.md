@@ -6,7 +6,7 @@
 
 A simple website for generating random aeropress recipes. Check it out [here](https://wjin17.github.io/aeropress-dice/?seed=thanks+for+visiting%21)!
 
-This site is a fork from thewinniewu's original aeropress dice website. Please checkout the [original](https://thewinniewu.github.io/aeropress-dice/).
+This site is a fork from thewinniewu's original aeropress dice [website](https://thewinniewu.github.io/aeropress-dice/).
 
 ## Additions
 
@@ -25,7 +25,7 @@ Bootstrapped with [CRA](https://github.com/facebookincubator/create-react-app). 
 Get files
 
 ```
-$ git clone https://github.com/wjin17/aeropress-dice
+$ git clone https://github.com/wjin17/aeropress-dice.git
 ```
 
 Install node modules
