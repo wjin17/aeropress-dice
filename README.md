@@ -51,3 +51,9 @@ $ npm build
 This project was based on James Hoffman's original aeropress dice. [Get a set](https://aero.press/products/brew-recipe-dice).
 
 Happy brewing!
+
+## License
+
+[MIT](https://github.com/wjin17/aeropress-dice/blob/master/LICENSE)
+
+[Aeropress Icon by monkik](https://www.flaticon.com/authors/monkik)
